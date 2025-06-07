@@ -1,0 +1,68 @@
+1. Proje Adı:
+Sanal Asistan Uygulaması (Windows Forms)
+
+2. Proje Amacı:
+Bu projenin amacı, bir kullanıcının günlük yaşamını düzenleyebilmesi için kişisel veriye dayalı, masaüstü tabanlı bir sanal asistan geliştirmektir.
+Uygulama; kullanıcıların randevu, not ve anımsatıcı bilgilerini yönetmesine olanak tanır.
+
+3. Kullanılan Teknolojiler:
+Programlama Dili: C#
+
+Geliştirme Ortamı: Microsoft Visual Studio
+
+Veritabanı: MySQL
+
+UI Framework: Windows Forms
+
+4. Uygulama Özellikleri:
+ 1. Randevu Yönetimi
+
+  Randevu ekleme (tarih, saat, açıklama)
+
+  Kullanıcıya özel randevu kaydı
+
+  Randevuların listelenmesi
+
+ 2. Not Sistemi
+  Not ekleme ve silme
+
+  Her kullanıcı sadece kendi notlarını görebilir
+
+  Notlar tarih bilgisiyle kaydedilir
+
+ 3. Anımsatıcı (Hatırlatıcı)
+  Belirli bir tarih ve zaman için hatırlatıcı oluşturulabilir
+
+  Silme ve görüntüleme işlemleri kullanıcıya özeldir
+
+5. Veri Güvenliği ve Kişiselleştirme
+  Her kullanıcı giriş yaptıktan sonra sadece kendi verilerini görebilir.
+
+  Veritabanında kullanıcı ID'si temel alınarak veri filtreleme yapılır.
+
+6. Veritabanı Yapısı (Özet):
+Tablolar:
+Kullanici (ID, ad, email, parola)
+
+Randevu (ID, KullaniciID, Tarih, Baslik, Aciklama)
+
+Notlar (ID, KullaniciID, Icerik, Baslik, Tarih)
+
+Hatirlatici (ID, KullaniciID, Baslik, Tarih, Aciklama)
+
+7. Kullanıcı Arayüzü:
+Giriş formu
+
+Ana menü
+
+Randevu Formu
+
+Not Formu
+
+Anımsatıcı Formu
+
+Her biri sade, kullanıcı dostu, işlevsel olarak ayrılmıştır.
+
+9. Sonuç:
+Bu proje, bireysel kullanıcıların ajanda tarzında dijital bir asistan kullanarak günlük işlerini yönetebileceği işlevsel bir uygulamadır.
+Gelecekte bu uygulamaya e-posta ile hatırlatma, tema desteği veya takvim entegrasyonu gibi gelişmiş özellikler eklenebilir.
